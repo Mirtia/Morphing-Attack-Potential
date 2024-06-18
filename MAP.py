@@ -52,4 +52,5 @@ def compute_map(frs_score_dict_list, frs_thr_list, frs_is_similarity_list):
 
 
 def compare(s, thr, is_similarity):
+    # Modified for simplicity
     return s > thr if is_similarity else s < thr

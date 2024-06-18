@@ -14,6 +14,5 @@
   "Dlib": [
     0.04146,
     false
-  ],
-  "comment": "Each face recognition system has has [threshold_score, ??]"
+  ]
 }

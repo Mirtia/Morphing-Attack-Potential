@@ -11,7 +11,7 @@ def load_frs_score_dict_from_file(file_path):
     for l in lines:
         line = l.replace("\n", "")
         splitted_line = line.split("\t")
-        morphed_image_name = splsplitted_line[0]
+        morphed_image_name = splitted_line[0]
 
         if morphed_image_name in frs_score_dict:
             morphed_image_score_dict = frs_score_dict[morphed_image_name]
